@@ -1,10 +1,12 @@
 * {
 	box-sizing: border-box; 
 }
+
 body {
 	font-family: 'ProximaNova-Light', sans-serif;
 	overflow-x:hidden;  /*для горизонтального*/
 }
+
 .container {
 	max-width: 1170px;
 	margin: auto;
