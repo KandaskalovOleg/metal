@@ -4,6 +4,7 @@
 body {
 	font-family: 'ProximaNova-Light', sans-serif;
 	overflow-x:hidden;  /*для горизонтального*/
+	margin-bottom: 0;
 }
 .container {
 	max-width: 1170px;
