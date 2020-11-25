@@ -46,7 +46,7 @@ font-style: normal;
 	align-items: center;
 	height: 75px;
 }
-.nawbar-logo {
+.navbar-logo {
 	width: 240px;
 }
 .navbar-contacts {
@@ -175,7 +175,6 @@ h1 {
 	padding-bottom: 30px;
 	margin-left: -10px;
 	margin-right: -10px;
-	margin-bottom: 80px;
 }
 .contact {
 	display: flex;
@@ -205,30 +204,6 @@ h1 {
 	background-color: #202020;
 }
 
-.clients{
-	margin-bottom: 80px;
-}
-.clients h2 {
-	color: #202020;
-}
-.clients ul{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	list-style-type: none;
-	padding: 0;
-}
-.clients ul li {
-	width: calc((100% / 6)-5px);
-	margin-right: 25px;
-}
-.clients ul li img {
-	border: 4px solid #eeeeee;
-	padding: 15px;
-}
-.clients ul li img:hover {
-	border: 4px solid #F7C51D;
-}
 
 footer {
 	background-color: #303030;
@@ -622,27 +597,26 @@ footer {
 /*MEDIA*/
 @media (max-width: 1199px){
 .container {max-width: 1000px;}
-.clients ul li {width: calc(100% / 10);}
 .article-block {width:44%;}
 }
 @media (max-width: 992px){
 .container {max-width: 750px;}
-.navbar-contact:first-child{display: none;}
-.clients ul li {width: calc(100% / 4);}
+.navbar-contact:nth-child(2){display: none;}
 .menu-link {padding: 14px; font-size: 12px;}
 .second-service-block img{width: 100%;}
 }
 @media (max-width: 740px){
 .container {max-width: 700px; padding:0 20px;}
-.navbar-contact:nth-child(2){display: none;}
+.navbar-contact:nth-child(3){display: none;}
 .service-block{flex-wrap: wrap;}
 .service-item{width:100%; margin-right: 0px;}
-.clients ul li {width: calc(100% / 3);}
 .delivery-picture{display: none;}
 .second-service-block img{width: 100%;}
 }
 @media (max-width: 576px){
-.navbar-contact{display: none;}
+.navbar-logo {width: 180px;}
+.navbar-phone{border-right: none; font-size:14px;}
+.navbar-contact{padding-left: 0;}
 .menu{display: none;}
 .services{margin-top: 80px;}
 .service-item{padding-right: 0px}
@@ -670,4 +644,9 @@ footer {
 .profnastil p {	font-size: 13px;color: #505050;}
 .profnastil-block td {padding: 5px 10px;}
 .profnastil ul {font-size: 13px;}
+}
+@media (max-width: 340px){
+	.navbar-logo {width: 140px;}
+	.navbar-phone{border-right: none; font-size:12px;}
+	.navbar-wrap img{height: 50px;}
 }
