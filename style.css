@@ -609,6 +609,7 @@ footer {
 @media (max-width: 740px){
 .container {max-width: 700px; padding:0 20px;}
 .navbar-contact:nth-child(3){display: none;}
+.navbar-phone{border-right: none;}
 .service-block{flex-wrap: wrap;}
 .service-item{width:100%; margin-right: 0px;}
 .delivery-picture{display: none;}
