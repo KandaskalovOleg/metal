@@ -508,9 +508,7 @@ footer {
 .article-block:hover .article-button{
 	color: #F7C51D;
 }
-.article-block:hover {
-	border-bottom: 2px solid #F7C51D;
-}
+
 .article-block:hover p {
 	color: #505050;
 }
